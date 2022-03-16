@@ -30,7 +30,7 @@ const CryptoApp = () => {
     <div className='crypto-app'>
         <ListProvider>
             <Routes>
-                <Route path='/' element={<Home coins={coins}/>}/>
+                <Route path='/Crypto-app' element={<Home coins={coins}/>}/>
             </Routes>
             <Aside coins={coins}/>
         </ListProvider>
