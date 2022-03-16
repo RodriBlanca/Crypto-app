@@ -29,7 +29,7 @@ const CryptoList = () => {
       <table className='crypto-list'>
         <thead>
             <tr>
-                <th>{/* Imagen */}</th>
+                <th></th>
                 <th>Name</th>
                 <th>Symbol</th>
                 <th>Bought at</th>
